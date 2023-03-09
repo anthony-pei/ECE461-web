@@ -1,0 +1,20 @@
+{
+  "name": "ece-461-fall-2021-project-2",
+  "version": "2.0.0",
+  "description": "API for ECE 461/Fall 2021/Project 2: A Trustworthy Module Registry",
+  "main": "index.js",
+  "scripts": {
+	"prestart": "npm install",
+	"start": "node index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "oas3-tools": "^2.2.3"
+  }
+}
